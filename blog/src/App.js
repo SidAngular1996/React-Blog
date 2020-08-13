@@ -7,8 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import ContactUS from './containers/ContactUs';
 import Post from './containers/Post';
 
+
 function App() {
   return (
+  
     <Router>
       <div className="App">
         <Header />
